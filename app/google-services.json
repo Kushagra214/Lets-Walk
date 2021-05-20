@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "814078775374",
+    "firebase_url": "https://letswalk-2.firebaseio.com",
+    "project_id": "letswalk-2",
+    "storage_bucket": "letswalk-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814078775374:android:daf42d7f9f3cebc436b31f",
+        "android_client_info": {
+          "package_name": "com.inducesmile.lets_walk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814078775374-82hv31ejbmuqf4jkfcrsg7dvsmp6pkgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3wDvI_qs-7PHM8xp8psjM8nS5tOM49d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814078775374-82hv31ejbmuqf4jkfcrsg7dvsmp6pkgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

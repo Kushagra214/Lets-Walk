@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inducesmile.lets_walk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature android:name="android.hardware.Sensor.stepcounter" />
+    <uses-feature android:name="android.hardware.sensor.stepdetector" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8310301726521010~1827904339" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".activity_splashscreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_PWreset"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_userDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_how_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_vouchers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_friends"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_refer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_how1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_how2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_how3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_rewards"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_summary"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
