@@ -6,12 +6,6 @@ LET’S WALK also rewards you the coins for walking which you can use to purchas
 
 <p align="center">
   <img src="https://github.com/Kushagra214/Lets-Walk/blob/master/readme_img/Home1.jpeg" width="245" height="500" title="home_page">
-  <img src="https://github.com/Kushagra214/Lets-Walk/blob/master/readme_img/Home2.jpeg" width="245" height="500" title="home_page">
   <img src="https://github.com/Kushagra214/Lets-Walk/blob/master/readme_img/Profile.jpeg" width="245" height="500" title="profile_page">
   <img src="https://github.com/Kushagra214/Lets-Walk/blob/master/readme_img/Friends.jpeg" width="245" height="500" title="friends_page">
-  <!--br>
-  <img src="https://github.com/Kushagra214/Lets-Walk/blob/master/readme_img/About_1.jpeg" width="200" height="400" title="home_page">
-  <img src="https://github.com/Kushagra214/Lets-Walk/blob/master/readme_img/About_2.jpeg" width="200" height="400" title="home_page">
-  <img src="https://github.com/Kushagra214/Lets-Walk/blob/master/readme_img/About_3.jpeg" width="200" height="400" title="home_page"-->
-  
 </p>
